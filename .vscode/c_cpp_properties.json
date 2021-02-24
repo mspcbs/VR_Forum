@@ -1,0 +1,9 @@
+{
+	"configurations": [
+		{
+			"name": "VR_ForumEditor Editor Win64 Development (VR_Forum)",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\.vscode\\compileCommands_VR_Forum.json"
+		}
+	]
+}

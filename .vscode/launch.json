@@ -1,0 +1,193 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "VR_Forum (Debug)",
+			"request": "launch",
+			"preLaunchTask": "VR_Forum Win64 Debug Build",
+			"program": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_Forum (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "VR_Forum Win64 DebugGame Build",
+			"program": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_Forum (Development)",
+			"request": "launch",
+			"preLaunchTask": "VR_Forum Win64 Development Build",
+			"program": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_Forum (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "VR_Forum Win64 Shipping Build",
+			"program": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_Forum (Test)",
+			"request": "launch",
+			"preLaunchTask": "VR_Forum Win64 Test Build",
+			"program": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_ForumEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "VR_ForumEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_ForumEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "VR_ForumEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_ForumEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "VR_ForumEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_ForumServer (Debug)",
+			"request": "launch",
+			"preLaunchTask": "VR_ForumServer Win64 Debug Build",
+			"program": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\Binaries\\Win64\\UE4Server-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_ForumServer (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "VR_ForumServer Win64 DebugGame Build",
+			"program": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\Binaries\\Win64\\UE4Server-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_ForumServer (Development)",
+			"request": "launch",
+			"preLaunchTask": "VR_ForumServer Win64 Development Build",
+			"program": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\Binaries\\Win64\\UE4Server.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_ForumServer (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "VR_ForumServer Win64 Shipping Build",
+			"program": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\Binaries\\Win64\\UE4Server-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "VR_ForumServer (Test)",
+			"request": "launch",
+			"preLaunchTask": "VR_ForumServer Win64 Test Build",
+			"program": "D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\Binaries\\Win64\\UE4Server-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+		}
+	]
+}

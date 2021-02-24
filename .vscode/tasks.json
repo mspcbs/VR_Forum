@@ -1,0 +1,1517 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "VR_Forum Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Win32",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Win64",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_Forum Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_Forum Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_Forum",
+				"Android",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumEditor",
+				"Win64",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumEditor",
+				"Win64",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumEditor",
+				"Win64",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumEditor",
+				"Win64",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumEditor",
+				"Win64",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumEditor",
+				"Win64",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumServer Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumServer Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumServer Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumServer Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumServer Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win32",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumServer Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Debug",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumServer Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"DebugGame",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumServer Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Development",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumServer Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Shipping",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"VR_ForumServer Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "VR_ForumServer Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VR_ForumServer",
+				"Win64",
+				"Test",
+				"D:\\002_M.2_002_PROJECTS\\002_Unreal Projects\\VR_Forum\\VR_Forum.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.26"
+			}
+		}
+	]
+}
